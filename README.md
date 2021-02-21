@@ -1,6 +1,9 @@
 # Installation
 ### Setting Up the Environment (Preinstallation)
 **For Linux Users**
+
+Make sure you are using cmake>=3.19. 
+
 For the optimal performance on Intel-based architectures, installing [Intel Math Kernel Library (MKL)](https://software.intel.com/content/www/us/en/develop/articles/intel-math-kernel-library-intel-mkl-2020-install-guide.html) is **highly** recommended. After installing, make sure `MKLROOT` is defined by running the [setvars](https://software.intel.com/content/www/us/en/develop/documentation/using-configuration-file-for-setvars-sh/top.html) script.
 
 **Install library dependencies**
